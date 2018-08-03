@@ -3,6 +3,7 @@ import React, {WebView, Dimensions, AsyncStorage} from 'react-native'
 import CONST from './const.js'
 import Timer from 'react-timer-mixin'
 import log from './logger'
+import fetch from 'cross-fetch'
 
 const defaultTokenUrl = 'https://login.microsoftonline.com/common/oauth2/token'
 
